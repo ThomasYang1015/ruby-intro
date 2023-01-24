@@ -11,6 +11,8 @@
 # "YOU WIN!", if they add up to 2, 3, or 12, write a message
 # that reads "YOU LOSE!", otherwise, write a message that
 # reads "THE POINT IS {number}"
+ 
+
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
@@ -30,3 +32,13 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12
+    puts "YOU LOSE!"
+else
+    puts "THE POINT IS #{total}"
+end
+
+nothing = nil

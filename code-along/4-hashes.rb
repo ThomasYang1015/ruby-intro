@@ -3,7 +3,23 @@
 # ruby 4-hashes.rb
 
 # Hashes are lists of *key-value pairs*
+profile = {
+    "name" => "Ben",
+    "location" => "Chicago",
+    "timeline" => [
+        {"status" => "Teaching", "time" => "8:25pm"},
+        {"status" => "Driving", "time" => "9:00 am"}]
+}
+
+
 
 # Accessing data from the hash
+puts profile["name"]
+puts profile["location"]
+
+
 
 # More Complex Hashes
+profile["age"] = "..."
+profile["name"]="Benjamin"
+puts profile

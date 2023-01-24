@@ -15,3 +15,20 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples"]
+combine_list = my_list + friend_list
+puts combine_list
+# sort the result (alphabetically)
+sorted_list = combine_list.sort
+#puts sorted_list
+#remove the duplicate items
+unique_list = sorted_list.unique_list
+#puts unique_list 
+
+puts "buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
+puts "buy #{unique_list[2]}"
+puts "buy #{unique_list[3]}"
+puts "buy #{unique_list[4]}"
